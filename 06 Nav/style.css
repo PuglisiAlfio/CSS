@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height: 40px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: x-large;
+    margin: 0px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+select{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border: none;
+}
+
+svg {
+    display: none;
+}
+
+input {
+    border-radius: 5px;
+    height: 25px;
+    padding: 5px;
+}
+
+button {
+    background-color: transparent;
+    color: green;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid green;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-left, .navbar-right {
+        display: none;
+    }
+
+    svg{
+        display: inline;
+        color: white;
+        height: 25px;
+        text-align: end;
+        fill: white;
+    }
+}
