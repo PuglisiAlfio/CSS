@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    gap:1rem;
+}
+
+#red, #yellow, #green, #blue  {
+    flex-grow: 1;
+}
+
+#orange {
+    flex-grow: 4;
+}
